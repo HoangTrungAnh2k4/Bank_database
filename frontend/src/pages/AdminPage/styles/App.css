@@ -1,0 +1,110 @@
+/* src/styles/App.css */
+.app {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #112D4E;
+  color: white;
+  padding: 20px;
+  height: 100vh;
+}
+
+.sidebar h2 {
+  color: #f0f0f0;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 10px 0;
+}
+
+.sidebar ul li a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+  color: white;
+}
+
+.main-content {
+  flex: 1;
+}
+
+.navbar {
+  background-color: #112D4E;
+  color: white;
+  padding: 10px 20px;
+}
+
+.content {
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+/* src/styles/App.css */
+.user-details {
+  margin: 20px 0;
+}
+
+.user-details ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.user-details li {
+  margin: 10px 0;
+  font-size: 1.1em;
+}
+/* src/styles/App.css */
+.add-employee, .employee-details {
+  padding: 20px;
+}
+
+.add-employee form label, .add-employee form input {
+  display: block;
+  margin: 10px 0;
+}
+
+.add-employee form button {
+  margin-top: 15px;
+}
+
+.employee-details ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.employee-details li {
+  margin: 5px 0;
+  font-size: 1.1em;
+}
+
+.add-employee-link {
+  display: inline-block;
+  margin: 20px 0;
+  text-decoration: none;
+  color: blue;
+}
